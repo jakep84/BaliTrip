@@ -1,6 +1,6 @@
 {
   "name": "bali-trip-board",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "private": true,
   "description": "Shared Bali trip map and checklist with Google Places photos",
   "dependencies": {

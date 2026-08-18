@@ -756,6 +756,24 @@
   }
 
   function bindUI() {
+    // X / Cancel buttons must never submit the dialog form.
+    // Otherwise required-field validation blocks the user from closing the modal.
+    $$('[data-close-dialog]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const dialog = btn.closest('dialog');
+        if (dialog?.open) dialog.close();
+      });
+    });
+
+    // Escape should also close naturally; this keeps any accidental browser
+    // validation state from lingering when the dialog is reopened.
+    $$('dialog').forEach(dialog => {
+      dialog.addEventListener('close', () => {
+        const form = dialog.querySelector('form');
+        if (dialog.id === 'addDialog' && form) form.reset();
+      });
+    });
+
     $$('.tab').forEach(t => t.onclick = () => switchView(t.dataset.view));
 
     $('#searchInput').addEventListener('input', e => {

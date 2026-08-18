@@ -67,7 +67,7 @@
           <div class="eyebrow">NEW STOP</div>
           <h2>Add a place</h2>
         </div>
-        <button value="cancel" class="close-btn" aria-label="Close">×</button>
+        <button type="button" class="close-btn" data-close-dialog aria-label="Close">×</button>
       </div>
 
       <label>
@@ -101,7 +101,7 @@
       </label>
 
       <div class="dialog-actions">
-        <button value="cancel">Cancel</button>
+        <button type="button" data-close-dialog>Cancel</button>
         <button value="default" class="primary" id="saveAddBtn">Add place</button>
       </div>
     </form>
@@ -114,7 +114,7 @@
           <div class="eyebrow">PLACE DETAILS</div>
           <h2 id="editTitle">Edit place</h2>
         </div>
-        <button value="cancel" class="close-btn" aria-label="Close">×</button>
+        <button type="button" class="close-btn" data-close-dialog aria-label="Close">×</button>
       </div>
 
       <label>
@@ -128,7 +128,7 @@
       </div>
 
       <div class="dialog-actions">
-        <button value="cancel">Cancel</button>
+        <button type="button" data-close-dialog>Cancel</button>
         <button value="default" class="primary" id="saveEditBtn">Save note</button>
       </div>
     </form>
