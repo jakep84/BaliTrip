@@ -1,146 +1,191 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#173f35" />
-  <meta name="description" content="A shared Bali trip map and checklist centered around Ubud." />
-  <title>Bali Trip Board</title>
-  <link rel="preconnect" href="https://unpkg.com">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="/styles.css" />
-</head>
-<body>
-  <div id="app">
-    <header class="topbar">
-      <div>
-        <div class="eyebrow">UBUD BASECAMP</div>
-        <h1>Bali Trip Board 🌴</h1>
-      </div>
-      <div class="top-actions">
-        <button class="icon-btn" id="shareBtn" title="Share">Share</button>
-        <button class="icon-btn" id="unlockBtn" title="Unlock editing">Unlock</button>
-      </div>
-    </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#173f35" />
+    <meta
+      name="description"
+      content="A shared Bali trip map and checklist centered around Ubud."
+    />
+    <title>Bali Trip Board</title>
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">UBUD BASECAMP</div>
+          <h1>Bali Trip Board 🌴</h1>
+        </div>
+        <div class="top-actions">
+          <button class="icon-btn" id="shareBtn" title="Share">Share</button>
+          <button class="icon-btn" id="unlockBtn" title="Unlock editing">
+            Unlock
+          </button>
+        </div>
+      </header>
 
-    <section class="summary">
-      <div class="progress-copy">
-        <strong id="progressText">0 / 0 done</strong>
-        <span id="syncStatus">Loading…</span>
-      </div>
-      <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
-    </section>
-
-    <nav class="tabs" aria-label="Views">
-      <button class="tab active" data-view="map">Map</button>
-      <button class="tab" data-view="list">Checklist</button>
-    </nav>
-
-    <section class="toolbar">
-      <input id="searchInput" type="search" placeholder="Search places…" autocomplete="off" />
-      <button id="addBtn" class="primary">+ Add</button>
-    </section>
-
-    <section id="filters" class="filters" aria-label="Categories"></section>
-
-    <main>
-      <section id="mapView" class="view active">
-        <div id="map"></div>
-        <div id="geoBanner" class="geo-banner hidden">
-          <span id="geoText">Loading map pins…</span>
-          <button id="stopGeo" class="link-btn">Stop</button>
+      <section class="summary">
+        <div class="progress-copy">
+          <strong id="progressText">0 / 0 done</strong>
+          <span id="syncStatus">Loading…</span>
+        </div>
+        <div class="progress-track">
+          <div id="progressBar" class="progress-bar"></div>
         </div>
       </section>
 
-      <section id="listView" class="view">
-        <div id="list" class="list"></div>
+      <nav class="tabs" aria-label="Views">
+        <button class="tab active" data-view="map">Map</button>
+        <button class="tab" data-view="list">Checklist</button>
+      </nav>
+
+      <section class="toolbar">
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Search places…"
+          autocomplete="off"
+        />
+        <button id="addBtn" class="primary">+ Add</button>
       </section>
-    </main>
-  </div>
 
-  <dialog id="addDialog">
-    <form method="dialog" id="addForm">
-      <div class="dialog-head">
-        <div>
-          <div class="eyebrow">NEW STOP</div>
-          <h2>Add a place</h2>
+      <section id="filters" class="filters" aria-label="Categories"></section>
+
+      <main>
+        <section id="mapView" class="view active">
+          <div id="map"></div>
+          <div id="geoBanner" class="geo-banner hidden">
+            <span id="geoText">Loading map pins…</span>
+            <button id="stopGeo" class="link-btn">Stop</button>
+          </div>
+        </section>
+
+        <section id="listView" class="view">
+          <div id="list" class="list"></div>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="addDialog">
+      <form method="dialog" id="addForm">
+        <div class="dialog-head">
+          <div>
+            <div class="eyebrow">NEW STOP</div>
+            <h2>Add a place</h2>
+          </div>
+          <button value="cancel" class="close-btn" aria-label="Close">×</button>
         </div>
-        <button value="cancel" class="close-btn" aria-label="Close">×</button>
-      </div>
 
-      <label>
-        Name
-        <input name="name" required placeholder="e.g. Campuhan Ridge Walk" />
-      </label>
+        <label>
+          Name
+          <input name="name" required placeholder="e.g. Campuhan Ridge Walk" />
+        </label>
 
-      <label>
-        Category
-        <select name="category">
-          <option>Sites</option>
-          <option>Rice Terraces</option>
-          <option>Water Temples</option>
-          <option>Temples</option>
-          <option>Waterfalls</option>
-          <option>Activities</option>
-          <option>Spa</option>
-          <option>Food</option>
-          <option>Needs Confirmation</option>
-        </select>
-      </label>
+        <label>
+          Category
+          <select name="category">
+            <option>Sites</option>
+            <option>Rice Terraces</option>
+            <option>Water Temples</option>
+            <option>Temples</option>
+            <option>Waterfalls</option>
+            <option>Activities</option>
+            <option>Spa</option>
+            <option>Food</option>
+            <option>Needs Confirmation</option>
+          </select>
+        </label>
 
-      <label>
-        Map search / address
-        <input name="query" placeholder="Place name, town, Bali, Indonesia" />
-      </label>
+        <label>
+          Map search / address
+          <input name="query" placeholder="Place name, town, Bali, Indonesia" />
+        </label>
 
-      <label>
-        Notes
-        <textarea name="note" rows="3" placeholder="Come early, reservation, price, etc."></textarea>
-      </label>
+        <label>
+          Notes
+          <textarea
+            name="note"
+            rows="3"
+            placeholder="Come early, reservation, price, etc."
+          ></textarea>
+        </label>
 
-      <label>
-        Custom image URL (optional)
-        <input name="photoUrl" placeholder="https://example.com/photo.jpg" />
-      </label>
+        <label>
+          Custom image URL (optional)
+          <input name="photoUrl" placeholder="https://example.com/photo.jpg" />
+        </label>
 
-      <div class="dialog-actions">
-        <button value="cancel">Cancel</button>
-        <button value="default" class="primary" id="saveAddBtn">Add place</button>
-      </div>
-    </form>
-  </dialog>
-
-  <dialog id="editDialog">
-    <form method="dialog" id="editForm">
-      <div class="dialog-head">
-        <div>
-          <div class="eyebrow">PLACE DETAILS</div>
-          <h2 id="editTitle">Edit place</h2>
+        <div class="dialog-actions">
+          <button value="cancel">Cancel</button>
+          <button value="default" class="primary" id="saveAddBtn">
+            Add place
+          </button>
         </div>
-        <button value="cancel" class="close-btn" aria-label="Close">×</button>
-      </div>
+      </form>
+    </dialog>
 
-      <label>
-        Note
-        <textarea id="editNoteText" rows="5" placeholder="Come early, reservation, etc."></textarea>
-      </label>
+    <dialog id="editDialog">
+      <form method="dialog" id="editForm">
+        <div class="dialog-head">
+          <div>
+            <div class="eyebrow">PLACE DETAILS</div>
+            <h2 id="editTitle">Edit place</h2>
+          </div>
+          <button value="cancel" class="close-btn" aria-label="Close">×</button>
+        </div>
 
-      <label>
-        Custom image URL
-        <input id="editPhotoUrl" placeholder="https://example.com/photo.jpg" />
-      </label>
+        <label>
+          Note
+          <textarea
+            id="editNoteText"
+            rows="5"
+            placeholder="Come early, reservation, etc."
+          ></textarea>
+        </label>
 
-      <div class="hint" id="photoHintText">If left blank, the site tries to find a public reference photo automatically.</div>
+        <label>
+          Custom image URL
+          <input
+            id="editPhotoUrl"
+            placeholder="https://example.com/photo.jpg"
+          />
+        </label>
 
-      <div class="dialog-actions">
-        <button value="cancel">Cancel</button>
-        <button value="default" class="primary" id="saveEditBtn">Save changes</button>
-      </div>
-    </form>
-  </dialog>
+        <div class="hint" id="photoHintText">
+          If left blank, the site tries to find a public reference photo
+          automatically.
+        </div>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="/seed.js"></script>
-  <script src="/app.js"></script>
-</body>
+        <div class="dialog-actions">
+          <button value="cancel">Cancel</button>
+          <button value="default" class="primary" id="saveEditBtn">
+            Save changes
+          </button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/seed.js"></script>
+    <script src="/app.js"></script>
+    <script>
+      window.va =
+        window.va ||
+        function () {
+          (window.vaq = window.vaq || []).push(arguments);
+        };
+    </script>
+
+    <script defer src="/_vercel/insights/script.js"></script>
+  </body>
 </html>
