@@ -13,8 +13,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Belimbing Rice Terrace Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "jatiluwih-rice-terraces-2",
@@ -30,8 +30,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Jatiluwih",
-    "imageQuery": "Jatiluwih Rice Terraces Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "tegallalang-rice-terrace-3",
@@ -47,8 +47,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Tegallalang Rice Terrace",
-    "imageQuery": "Tegallalang Rice Terrace Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "alas-harum-bali-4",
@@ -64,8 +64,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Alas Harum Bali Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "peking-rice-terrace-5",
@@ -81,8 +81,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Peking Rice Terrace Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "pura-gunung-kawi-sebatu-6",
@@ -98,8 +98,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Gunung Kawi",
-    "imageQuery": "Pura Gunung Kawi Sebatu Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "pura-mengening-7",
@@ -115,8 +115,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Mengening Temple",
-    "imageQuery": "Pura Mengening Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "taman-beji-griya-waterfall-temple-8",
@@ -132,8 +132,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Taman Beji Griya Waterfall Temple Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "tirta-empul-temple-9",
@@ -149,8 +149,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Tirta Empul",
-    "imageQuery": "Tirta Empul Temple Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "pura-segara-ulun-danu-batur-10",
@@ -166,8 +166,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Lake Batur",
-    "imageQuery": "Pura Segara Ulun Danu Batur Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "ulun-danu-beratan-temple-11",
@@ -183,8 +183,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Pura Ulun Danu Bratan",
-    "imageQuery": "Ulun Danu Beratan Temple Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "brahmavihara-arama-12",
@@ -200,8 +200,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Brahmavihara-Arama",
-    "imageQuery": "Brahmavihara-Arama Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "banyumala-twin-waterfalls-13",
@@ -217,8 +217,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Banyumala Twin Waterfalls",
-    "imageQuery": "Banyumala Twin Waterfalls Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "tegenungan-waterfall-14",
@@ -234,8 +234,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Tegenungan Waterfall",
-    "imageQuery": "Tegenungan Waterfall Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "banyu-wana-amertha-waterfall-15",
@@ -251,8 +251,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Banyu Wana Amertha Waterfall Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "gembleng-waterfall-16",
@@ -268,8 +268,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Gembleng Waterfall Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "munduk-waterfalls-trek-17",
@@ -285,8 +285,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Munduk Waterfalls Trek Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "taman-dedari-18",
@@ -302,8 +302,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Taman Dedari Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "kelingking-beach-19",
@@ -319,8 +319,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Kelingking Beach",
-    "imageQuery": "Kelingking Beach Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "lahangan-sweet-20",
@@ -336,8 +336,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Lahangan Sweet Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "mount-batur-21",
@@ -353,8 +353,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Mount Batur",
-    "imageQuery": "Mount Batur Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "batur-natural-hot-spring-22",
@@ -370,8 +370,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Batur Natural Hot Spring Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "papa-nyoman-reflexology-23",
@@ -387,8 +387,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Papa Nyoman Reflexology Ubud Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "aquam-spa-seaweed-baths-24",
@@ -404,8 +404,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Aquam Spa & Seaweed Baths Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "koli-koli-bali-25",
@@ -421,8 +421,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Koli-Koli Bali Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "shosan-holistic-spa-26",
@@ -438,8 +438,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "SHOSAN Holistic Spa Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "amed-snorkeling-turtles-27",
@@ -455,8 +455,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Amed Snorkeling / Turtles Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "manta-point-nusa-penida-28",
@@ -472,8 +472,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Manta Point, Nusa Penida Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "virgin-beach-29",
@@ -489,8 +489,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Virgin Beach, Bali",
-    "imageQuery": "Virgin Beach Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "bali-zoo-30",
@@ -506,8 +506,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "Bali Zoo",
-    "imageQuery": "Bali Zoo Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "make-your-own-batik-31",
@@ -523,8 +523,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Make Your Own Batik Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "swing-heaven-32",
@@ -540,8 +540,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Swing Heaven Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "blangsingah-glass-bridge-rainbow-slide-33",
@@ -557,8 +557,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Blangsingah Glass Bridge + Rainbow Slide Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "bali-pulina-coffee-plantation-34",
@@ -574,8 +574,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Bali Pulina Coffee Plantation Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "tis-cafe-35",
@@ -591,8 +591,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "TIS Cafe Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "cretya-ubud-36",
@@ -608,8 +608,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Cretya Ubud Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "omma-dayclub-bali-37",
@@ -625,8 +625,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Omma Dayclub Bali Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "hanging-restaurant-bar-38",
@@ -642,8 +642,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Hanging Restaurant & Bar Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "7am-bakers-7pm-diners-ubud-39",
@@ -659,8 +659,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "7AM Bakers | 7PM Diners Ubud Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "mamu-garden-cafe-lounge-40",
@@ -676,8 +676,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "MAMU Garden Cafe & Lounge Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "warung-pulau-kelapa-41",
@@ -693,8 +693,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Warung Pulau Kelapa Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "sayan-valley-42",
@@ -710,8 +710,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Sayan Valley Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "akasa-at-jumeirah-bali-43",
@@ -727,8 +727,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Akasa at Jumeirah Bali Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "terra-verte-ubud-44",
@@ -744,8 +744,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Terra Verte Ubud Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "d-tukad-river-club-45",
@@ -761,8 +761,8 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "D'tukad River Club Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   },
   {
     "id": "menikamati-coffee-46",
@@ -778,7 +778,7 @@
     "photoThumbUrl": "",
     "photoLink": "",
     "photoSource": "",
-    "wikiTitle": "",
-    "imageQuery": "Menikamati Coffee Bali"
+    "googlePlaceId": "",
+    "googlePhotoIndex": 0
   }
 ]
